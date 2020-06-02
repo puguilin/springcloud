@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="datasource">
+      <Current>1</Current>
+    </schema>
+    <schema id="3" parent="1" name="db01">
+      <Visible>1</Visible>
+    </schema>
+    <schema id="4" parent="1" name="demo"/>
+    <schema id="5" parent="1" name="guns"/>
+    <schema id="6" parent="1" name="information_schema"/>
+    <schema id="7" parent="1" name="jdbcstudy"/>
+    <schema id="8" parent="1" name="mybatis-26"/>
+    <schema id="9" parent="1" name="mysql"/>
+    <schema id="10" parent="1" name="performance_schema"/>
+    <schema id="11" parent="1" name="shiro"/>
+    <schema id="12" parent="1" name="taotao1218"/>
+    <schema id="13" parent="1" name="test"/>
+    <schema id="14" parent="1" name="db02">
+      <Visible>1</Visible>
+    </schema>
+    <schema id="15" parent="1" name="db03">
+      <Visible>1</Visible>
+    </schema>
+    <schema id="16" parent="1" name="new_schema">
+      <Visible>1</Visible>
+    </schema>
+    <table id="17" parent="3" name="dept">
+      <Comment>部门表</Comment>
+    </table>
+    <table id="18" parent="14" name="dept">
+      <Comment>部门表</Comment>
+    </table>
+    <table id="19" parent="15" name="dept">
+      <Comment>部门表</Comment>
+    </table>
+    <column id="20" parent="17" name="deptno">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="21" parent="17" name="dname">
+      <Position>2</Position>
+      <DataType>varchar(60)|0</DataType>
+    </column>
+    <column id="22" parent="17" name="db_source">
+      <Position>3</Position>
+      <DataType>varchar(60)|0</DataType>
+    </column>
+    <key id="23" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>deptno</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="24" parent="18" name="deptno">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="25" parent="18" name="dname">
+      <Position>2</Position>
+      <DataType>varchar(60)|0</DataType>
+    </column>
+    <column id="26" parent="18" name="db_source">
+      <Position>3</Position>
+      <DataType>varchar(60)|0</DataType>
+    </column>
+    <key id="27" parent="18" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>deptno</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="28" parent="19" name="deptno">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="29" parent="19" name="dname">
+      <Position>2</Position>
+      <DataType>varchar(60)|0</DataType>
+    </column>
+    <column id="30" parent="19" name="db_source">
+      <Position>3</Position>
+      <DataType>varchar(60)|0</DataType>
+    </column>
+    <key id="31" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>deptno</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
